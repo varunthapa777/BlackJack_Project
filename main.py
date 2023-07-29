@@ -2,7 +2,7 @@ import os
 from art import logo
 import random
 
-cards = [11,2,3,4,5,6,7,11,8,9,10,10,10,10]
+cards = [11,2,3,4,5,6,7,8,9,10,10,10,10]
 
 computer = []
 player = []
@@ -10,7 +10,7 @@ player = []
 def deal_card():
     
     random.shuffle(cards)
-    rand_card = cards[random.randint(0,13)]
+    rand_card = cards[random.randint(0,12)]
     return rand_card
 
 
